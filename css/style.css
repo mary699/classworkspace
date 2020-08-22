@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: orange;
+    width: 100%;
+}
+
+
+#Contain{
+background-color: white;
+width: 1000px;
+margin: auto;
+padding: 17px;
+margin-top: 20px;
+border-radius: 3px;
+border: solid black 1px;
+}
+.banner{
+    width: 800px;
+    height: 300%;
+}
+
+.content1{
+    background: linear-gradient(to right, orange, gray );
+    margin-bottom: 5px ;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+#and{
+color: white;
+}
+#and p{
+    text-align: justify;
+}
+#and h2{
+    text-decoration: underline;
+}
+#and .content1:nth-child(even){
+    background:gray;
+}
+#and .content1:nth-child(even) p{
+    color: orange;
+}
+#and .content1:nth-child(even) h2{
+    color: orange;
+}
+
+
+.content2{
+    background-color: grey;
+    color: orangered;
+  
+    margin-bottom: 5px;
+    width: 220px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+#or{
+color: white;
+}
+#or p{
+    text-align: justify;
+}
+#or h2{
+    text-decoration: underline;
+}
+#or .content2:nth-child(even){
+    background:orange;
+}
+#or .content2:nth-child(odd){
+    background:gray;
+}
+#or .content2:nth-child(even) p{
+    color: orangered;
+}
+#or .content2:nth-child(odd) h2{
+    color: white;
+}
+
+
+
+.content3{
+    background: linear-gradient(to right, orange, gray );
+    margin-bottom: 5px ;
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+#nor{
+color: white;
+}
+#nor p{
+    text-align: justify;
+}
+#nor h2{
+    text-decoration: underline;
+}
+#nor .content3:nth-child(odd){
+    background:orange;
+}
+#nor .content3:nth-child(even) p{
+    color: white;
+}
+#nor .content3:nth-child(even) h2{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
